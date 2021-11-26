@@ -1,0 +1,212 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title> Title </title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../static/css/app.css">
+	<link rel="stylesheet" href="../../static/css/vendor.css">
+	<link rel="stylesheet" href="../../static/css/app.scss">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Theme initialization -->
+	<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+</head>
+
+<body class = "loaded">
+	<div class = "main-wrapper">
+		<div class = "app" id = "app">
+			<!-- 헤더 -->
+			<header class = "header">
+				<div class = "header-block header-block-buttons">
+					<!-- <a href="" class="btn btn-sm header-btn">
+						<i class="fa fa-github-alt"></i>
+						<span>여기에 뭐 넣어야하나</span>
+					</a> -->
+				</div>
+				<!--로그인/회원가입/회원정보가 들어갈 박스-->
+				<div class="header-block header-block-nav">
+					<ul class="nav-profile">
+						<li class="notifications new">
+							<a href="" data-toggle="dropdown" aria-expanded="false">
+								<i class="fa fa-bell-o"></i>
+								<sup>
+									<span class="counter">3</span>
+								</sup>
+							</a>
+							<div class="dropdown-menu notifications-dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 25px, 0px); top: 0px; left: 0px; will-change: transform;">
+								<ul class="notifications-container">
+									<li>
+										<a href="" class="notification-item">
+											<div class="img-col">
+												<div class="img" style="background-image: url('assets/faces/3.jpg')"></div>
+											</div>
+											<div class="body-col">
+												<p>
+													<span class="accent">Zack Alien</span> pushed new commit:
+													<span class="accent">Fix page load performance issue</span>. </p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="" class="notification-item">
+											<div class="img-col">
+												<div class="img" style="background-image: url('assets/faces/5.jpg')"></div>
+											</div>
+											<div class="body-col">
+												<p>
+													<span class="accent">Amaya Hatsumi</span> started new task:
+													<span class="accent">Dashboard UI design.</span>. </p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="" class="notification-item">
+											<div class="img-col">
+												<div class="img" style="background-image: url('assets/faces/8.jpg')"></div>
+											</div>
+											<div class="body-col">
+												<p>
+													<span class="accent">Andy Nouman</span> deployed new version of
+													<span class="accent">NodeJS REST Api V3</span>
+												</p>
+											</div>
+										</a>
+									</li>
+								</ul>
+								<footer>
+									<ul>
+										<li>
+											<a href=""> View All </a>
+										</li>
+									</ul>
+								</footer>
+							</div>
+						</li>
+						<li class="profile dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+								<div class="img" style="background-image: url('https://avatars3.githubusercontent.com/u/3959008?v=3&amp;s=40')"> </div>
+								<span class="name"> John Doe </span>
+							</a>
+							<div class="dropdown-menu profile-dropdown-menu" aria-labelledby="dropdownMenu1" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 30px, 0px); top: 0px; left: 0px; will-change: transform;">
+								<a class="dropdown-item" href="#">
+									<i class="fa fa-user icon"></i> Profile </a>
+								<a class="dropdown-item" href="#">
+									<i class="fa fa-bell icon"></i> Notifications </a>
+								<a class="dropdown-item" href="#">
+									<i class="fa fa-gear icon"></i> Settings </a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="login.html">
+									<i class="fa fa-power-off icon"></i> Logout </a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</header>
+
+			<!-- 사이드 툴바-->
+			<aside class="sidebar">
+				<div class="sidebar-container">
+					<!--로고와 사이트 이름 배치할 박스-->
+					<div class = "sidebar-header">
+						<div class="brand">
+							<div class="logo">
+								<p class = "logo_image"></p>
+							</div>
+							<span class = "site_name">사이트이름</span>
+						</div>
+					</div>
+					<!--툴바에 메뉴 배치-->
+					<nav class = "menu">
+						<ul class = "sidebar-menu menu metismenu" id="sidebar-menu">
+							<li class = "active">
+								<a href="index.html">
+									<i class="fa fa-home"></i>
+									Home
+								</a>
+							</li>
+
+							<li>
+								<a href>
+									<i class="fa fa-th-large"></i>
+									2nd tool
+									<i class="fa arrow"></i>
+								</a>
+								<ul class="sidebar-nav collapse" style="height: 0px;">
+									<li>
+										<a href="items-list.html"> Items List </a>
+									</li>
+									<li>
+										<a href="item-editor.html"> Item Editor </a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="">
+								<a href="">
+									<i class="fa fa-bar-chart"></i> 3rd tool
+									<i class="fa arrow"></i>
+								</a>
+								<ul class="sidebar-nav collapse" style="height: 0px;">
+									<li>
+										<a href="charts-flot.html"> Flot Charts </a>
+									</li>
+									<li>
+										<a href="charts-morris.html"> Morris Charts </a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</aside>
+
+			<!--동영상 띄우는 박스-->
+			<article class="content dashboard-page">
+				<section class="section">
+					<div class="row sameheight-container">
+						<div class="col-xl-4">
+							<div class="card sameheight-item sales-breakdown" data-exclude="xs,sm,lg">
+								<div class="card-header">
+									<div class="header-block">
+										<h3 class="title"> Upload your movie file </h3>
+									</div>
+								</div>
+								<div class="card-block">
+									<!-- <div class="dashboard-sales-breakdown-chart" id="dashboard-sales-breakdown-chart"><svg height="250" version="1.1" width="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative; left: -0.90625px;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.2.0</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0;" fill="none" stroke="#9ed85f" d="M125,201.66666666666669A76.66666666666667,76.66666666666667,0,0,0,197.59407492337823,149.65518330486972" stroke-width="2" opacity="0"></path><path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" fill="#9ed85f" stroke="#ffffff" d="M125,204.66666666666669A79.66666666666667,79.66666666666667,0,0,0,200.4347126377713,150.61995134723418L229.15671619441224,160.37482822003045A110,110,0,0,1,125,235Z" stroke-width="3"></path><path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 1;" fill="none" stroke="#70b02b" d="M197.59407492337823,149.65518330486972A76.66666666666667,76.66666666666667,0,0,0,56.24672005251155,91.0770833470932" stroke-width="2" opacity="1"></path><path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" fill="#70b02b" stroke="#ffffff" d="M200.4347126377713,150.61995134723418A79.66666666666667,79.66666666666667,0,0,0,53.55637431543592,89.74966486937075L21.870080078767344,74.11562502063978A115,115,0,0,1,233.89111238506734,161.98277495730457Z" stroke-width="3"></path><path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0;" fill="none" stroke="#85ce36" d="M56.24672005251155,91.0770833470932A76.66666666666667,76.66666666666667,0,0,0,124.97591445671868,201.66666288331834" stroke-width="2" opacity="0"></path><path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" fill="#85ce36" stroke="#ffffff" d="M53.55637431543592,89.74966486937075A79.66666666666667,79.66666666666667,0,0,0,124.9749719789381,204.6666627352743L124.96544248137897,234.99999457171762A110,110,0,0,1,26.35398964056006,76.32798915017719Z" stroke-width="3"></path><text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 15px; font-weight: 800;" x="125" y="115" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="15px" stroke="none" fill="#000000" font-weight="800" transform="matrix(1.1974,0,0,1.1974,-24.6746,-24.872)" stroke-width="0.8351449275362318"><tspan dy="6" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">In-Store Sales</tspan></text><text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 14px;" x="125" y="135" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="14px" stroke="none" fill="#000000" transform="matrix(1.5972,0,0,1.5972,-74.7149,-75.8472)" stroke-width="0.6260869565217391"><tspan dy="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">30</tspan></text></svg></div> -->
+									<video src = "111.mp4" controls autoplay="true" muted></video>
+									<a href="" class="btn btn-primary btn-sm"> 영상 불러오기 </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</article>
+
+		</div>
+	</div>
+
+	<!--사용할 자바스크립트, js파일 임포트하는 부분-->
+	<script>
+		(function(i, s, o, g, r, a, m)
+		{
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function()
+			{
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-80463319-4', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<script src="../../static/javascript/vendor.js"></script>
+	<script src="../../static/javascript/app.js"></script>
+
+</body>
+</html>
